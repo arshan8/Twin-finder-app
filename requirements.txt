@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+qdrant-client
+facenet-pytorch
+torch==2.2.2+cpu
+torchvision==0.17.2+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+pillow
+tqdm
+datasets
+numpy
+python-multipart
+python-dotenv
