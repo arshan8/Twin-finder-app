@@ -1,6 +1,6 @@
-# Resume Application
+# TWIN finding web app!!
 
-This project is a resume management application that utilizes FastAPI for the backend, Streamlit for the frontend, and Qdrant as the database for storing and managing resume data.
+This project utilizes FastAPI for the backend, Streamlit for the frontend, and Qdrant as the database for storing and managing resume data.
 
 ## Project Structure
 
@@ -10,18 +10,16 @@ resume-app
 │   ├── app
 │   │   ├── main.py          # Entry point for the FastAPI application
 │   │   ├── api
-│   │   │   └── routes.py    # API routes for handling resume-related requests
+│   │   │   └── routes.py    
 │   │   ├── models
-│   │   │   └── resume.py     # Data model for resumes
+│   │   │   └── resume.py    
 │   │   └── services
 │   │       └── qdrant_service.py # Service for interacting with Qdrant database
-│   ├── requirements.txt      # Backend dependencies
+│   ├── requirements.txt      # Backend dependencies #HOW ABOUY HAVING IT IN ROOT DIRECTORY??
 │   └── README.md             # Documentation for the backend
 ├── frontend
 │   ├── app.py                # Entry point for the Streamlit application
-│   ├── components
-│   │   └── resume_viewer.py  # Components for viewing resumes
-│   ├── requirements.txt       # Frontend dependencies
+│   ├── requirements.txt       # Frontend dependencies #LETS MERGE IT WITH GLOBAL DEPENDENCIES ONLY
 │   └── README.md              # Documentation for the frontend
 ├── qdrant
 │   └── README.md              # Documentation for Qdrant setup and usage
@@ -35,7 +33,7 @@ resume-app
 - Python 3.7 or higher
 - pip (Python package installer)
 
-### Backend Setup
+### Backend Setup  BUT I STRONGLY RECOMMEND USING VENV OR POETRY SHELL OR UV
 
 1. Navigate to the `backend` directory:
    ```
@@ -82,6 +80,3 @@ Refer to the `qdrant/README.md` for instructions on setting up and using the Qdr
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any enhancements or bug fixes.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
